@@ -55,5 +55,7 @@ button:active{
     border: 2px solid red;
 }
 .result{
-    width: 333px;
+    width: 165px;
+    background-color: lightblue;
+    border: 2px solid rgb(0, 38, 255);
 }
