@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: darkslategrey;
+    background-color: rgb(29, 131, 131);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,12 +12,14 @@ body{
 }
 
 .calc{
+border-radius: 10px;
+overflow: hidden;
 border: 3px solid black;
-height: 400px;
-background-color: rgb(32, 105, 50);
+height: 500px;
+background-color: rgb(14, 109, 38);
 }
 .topmode{
-    border: 2px solid blue;
+    border-bottom: 3px solid black;
 }
 .mainInput{
     height: 55px;
@@ -28,4 +30,30 @@ background-color: rgb(32, 105, 50);
 .mainInput:hover{
     background-color: black;
     color: yellow;
+}
+.downmode{
+    height: 87%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    height: 80px;
+    margin-top: 4px;
+    width: 80px;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 10px;
+    outline-width: 0;
+}
+button:active{
+    background-color: rgb(208, 255, 0);
+    border: 2px solid red;
+}
+.result{
+    width: 333px;
 }
