@@ -1,4 +1,5 @@
 window.onload = function() {
+    console.log("application starting good");
     calculator.startinitscript();
 };
 
@@ -9,8 +10,8 @@ let calculator = {
     input : undefined,
 
    startinitscript : function () {
-    buttons = document.querySelectorAll("button"),
-    input = document.querySelector("input")
+    buttons = document.querySelectorAll("button .box"),
+    input = document.querySelector("input mainInput")
   
     for(let i = 0; i < this.buttons.length; i++){
         let element = this.buttons[i];
@@ -19,6 +20,7 @@ let calculator = {
    },
 
    clickButton : function (event) {
-    
+    let textbutton = event.target,innerText;
+    textbutton = button.value;
    },
 }
