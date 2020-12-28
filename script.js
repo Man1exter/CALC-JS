@@ -21,6 +21,10 @@ let calculator = {
 
    clickButton : function (event) {
     let textbutton = event.target,innerText;
-    textbutton = button.value;
+    calculator.addTextFromInput(textbutton);
+   },
+
+   addTextFromInput : function (str) {
+
    },
 }

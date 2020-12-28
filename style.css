@@ -59,3 +59,8 @@ button:active{
     background-color: lightblue;
     border: 2px solid rgb(0, 38, 255);
 }
+.clear{
+    width: 165px;
+    background-color: lightblue;
+    border: 2px solid rgb(0, 38, 255);
+}
